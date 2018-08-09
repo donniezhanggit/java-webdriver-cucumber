@@ -4,10 +4,9 @@ package definitions;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import cucumber.api.java.en.And;
-import cucumber.api.java.en.But;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.io.File;
@@ -184,6 +183,10 @@ public class PredefinedStepDefs {
         executor.executeScript("arguments[0].scrollIntoView(false);", element);
         executor.executeScript("window.scrollBy(0, " + offset + ");", element);
         Thread.sleep(500);
+
+
+
     }
+
 
 }
