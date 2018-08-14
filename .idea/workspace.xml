@@ -1,0 +1,1301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="56a8f23b-3e07-4352-a29e-2402774df763" name="Default" comment="new branch 101: My changes">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/BraerPark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ChipotleFinalPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ChipotleMexicanGrillYelp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ChooseHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ConsultationWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/FloorNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/FullTimePortnovPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/Kvartira.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/MyPracticeClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/PortnovMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ScheduleOfClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/Yelp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber/embedded0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber/formatter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber/jquery-1.8.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber/report.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber/screenshot Mon Jun 11 16:36:17 PDT 2018.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber/screenshot Thu Jun 14 15:45:58 PDT 2018.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber/screenshot Thu Jun 14 15:46:52 PDT 2018.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber/screenshot Thu Jun 14 15:49:08 PDT 2018.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber/screenshot Thu Jun 14 15:49:57 PDT 2018.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/definitions/Amazon.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/definitions/Bevager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/definitions/Macys.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/definitions/MyCalculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/definitions/MyJavaSteps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/definitions/MyUpsProject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/definitions/MyYelp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/definitions/Portnov.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/definitions/PredefinedStepDefs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/definitions/WebDriverStepDefs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/definitions/braerPark/java.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/definitions/samplePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/definitions/usps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/downloads/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/downloads/SafariDriver.safariextz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/downloads/SendToKindleForMac-installer.pkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/downloads/data.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/drivers/SafariDriver.safariextz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/drivers/chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/drivers/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/drivers/geckodriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/drivers/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/BraerPark.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/amazon.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/bevager.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/calculator.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/java.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/macys.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/portnov.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/predefined.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/sample.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/ups.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/usps.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/webdriver.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/yelp.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/Animal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/ByAddressForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/ByAddressResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/Cat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/Dog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/LookUpaZIPCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/LookupByZip.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/PostagePriceCalculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/PostalStoreTab.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/PostalStoreValidate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/PostcardUsps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/SampleForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/SampleFormNameDialog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/SampleVerify.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/UspsHeader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/support/Hooks.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/support/TestContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/support/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/definitions/MyYelp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/definitions/MyYelp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/definitions/Portnov.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/definitions/Portnov.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/definitions/braerPark/java.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/definitions/braerPark/java.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/definitions/usps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/definitions/usps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/BraerPark.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/BraerPark.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/portnov.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/portnov.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ups.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ups.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/yelp.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/yelp.feature" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/javaWebdriverCucumber$Scenario__Full_sample_page_functionality.ic" NAME="Scenario: Full sample page functionality Coverage Results" MODIFIED="1532055250052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cucumber.api.cli.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/javaWebdriverCucumber$Scenario__Validate_ZIP_code_page_object.ic" NAME="Scenario: Validate ZIP code page object Coverage Results" MODIFIED="1533509753330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cucumber.api.cli.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/javaWebdriverCucumber$Scenario__Unit_Converters.ic" NAME="Scenario: Unit Converters Coverage Results" MODIFIED="1526079279111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cucumber.api.cli.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/javaWebdriverCucumber$Scenario__Verify_another_UPS_shipping_functionality__1_.ic" NAME="Scenario: Verify another UPS shipping functionality (1) Coverage Results" MODIFIED="1528236636688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cucumber.api.cli.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1282618716">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="feature" value="747" />
+          <entry key="java" value="6985" />
+          <entry key="txt" value="30" />
+          <entry key="yaml" value="100" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Cucumber" value="747" />
+          <entry key="JAVA" value="6985" />
+          <entry key="PLAIN_TEXT" value="30" />
+          <entry key="YAML" value="100" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="14" />
+          <entry key="feature" value="25" />
+          <entry key="java" value="153" />
+          <entry key="yaml" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="14" />
+          <entry key="Cucumber" value="25" />
+          <entry key="JAVA" value="153" />
+          <entry key="YAML" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.checkout.local" value="2" />
+          <entry key="git.branch.create.new" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/BraerPark.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/definitions/braerPark/java.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="130" selection-start-line="130" selection-end-line="130" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pages/FloorNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>webelement</find>
+      <find>value</find>
+      <find>TimeoutException</find>
+      <find>saveS</find>
+      <find>Timeout</find>
+      <find>move</find>
+      <find>actions</find>
+      <find>getEx</find>
+      <find>expec</find>
+      <find>formatte</find>
+      <find>iframe</find>
+      <find>system.getProperty</find>
+      <find>depen</find>
+      <find>getData</find>
+      <find>getDa</find>
+      <find>usps</find>
+      <find>I will go to usps page object$</find>
+      <find>webdriver14</find>
+      <find>USPS1</find>
+      <find>key</find>
+      <find>java</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/main/java</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="local" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/uspsStepDef.java" />
+        <option value="$PROJECT_DIR$/src/test/java/definitions/uspsStepDef.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MyStepdefs.java" />
+        <option value="$PROJECT_DIR$/src/test/java/definitions/uspsStepDefs.java" />
+        <option value="$PROJECT_DIR$/src/test/java/definitions/uspsStepsDefs.java" />
+        <option value="$PROJECT_DIR$/src/test/java/definitions/MyUpsProject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/definitions/uspsDef.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UspsDefs.java" />
+        <option value="$PROJECT_DIR$/src/test/java/support/TestContext.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/Dialog.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/FindyBy.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/LookupByZip.java" />
+        <option value="$PROJECT_DIR$/src/test/java/definitions/UspsDefs.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/ByAddressForm.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/LookUpaZIPCode.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/ByAddressResult.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/PostagePriceCalculator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/usps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/PostcardUsps.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/usps.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/UspsHeader.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/PostalStoreTab.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/PostalStoreValidate.java" />
+        <option value="$PROJECT_DIR$/src/test/java/definitions/samplePage.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/downloads/data.yaml" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/SampleForm.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/Page.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/sample.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/SampleVerify.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/DatePicker.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/ups.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/yelp.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/definitions/usps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/ChipotleMexicanGrillYelp.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/ChipotleFinalPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/Yelp.java" />
+        <option value="$PROJECT_DIR$/src/test/java/definitions/MyYelp.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/PortnovMain.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/ScheduleOfClasses.java" />
+        <option value="$PROJECT_DIR$/src/test/java/definitions/Portnov.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/FullTimePortnovPage.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/portnov.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/MyPracticeClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MyPractice.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/BraerPark.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/BraerPark.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/ChooseHouse.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/FloorNumber.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/Kvartira.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/ConsultationWindow.java" />
+        <option value="$PROJECT_DIR$/src/test/java/definitions/braerPark/java.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="126" />
+    <option name="y" value="23" />
+    <option name="width" value="1306" />
+    <option name="height" value="804" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="javaWebdriverCucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-webdriver-cucumber" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaWebdriverCucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-webdriver-cucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaWebdriverCucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-webdriver-cucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaWebdriverCucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-webdriver-cucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaWebdriverCucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-webdriver-cucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaWebdriverCucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-webdriver-cucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaWebdriverCucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-webdriver-cucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaWebdriverCucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-webdriver-cucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaWebdriverCucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-webdriver-cucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaWebdriverCucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-webdriver-cucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534213284335" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pages" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Cucumber java.Scenario: Verify Braer Park functionality using page object pattern">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: I'm looking for food using page object pattern" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/yelp.feature" />
+      <option name="GLUE" value="support definitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="java-webdriver-cucumber" />
+      <option name="NAME_FILTER" value="^I\'m looking for food using page object pattern$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^I\'m looking for food using page object pattern$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: I'm looking for food using page object pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify Braer Park functionality using page object pattern" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/BraerPark.feature" />
+      <option name="GLUE" value="support definitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="java-webdriver-cucumber" />
+      <option name="NAME_FILTER" value="^Verify Braer Park functionality using page object pattern$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^Verify Braer Park functionality using page object pattern$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify Braer Park functionality using page object pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify Braer Park functionality" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/BraerPark.feature" />
+      <option name="GLUE" value="support definitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="java-webdriver-cucumber" />
+      <option name="NAME_FILTER" value="^Verify Braer Park functionality$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^Verify Braer Park functionality$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify Braer Park functionality" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify Braer Park functionality2" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/BraerPark.feature" />
+      <option name="GLUE" value="support definitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="java-webdriver-cucumber" />
+      <option name="NAME_FILTER" value="^Verify Braer Park functionality2$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^Verify Braer Park functionality2$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify Braer Park functionality2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: play with basic functions using page object model" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/portnov.feature" />
+      <option name="GLUE" value="support definitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="java-webdriver-cucumber" />
+      <option name="NAME_FILTER" value="^play with basic functions using page object model$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^play with basic functions using page object model$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: play with basic functions using page object model" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber java.Scenario: I'm looking for food using page object pattern" />
+      <item itemvalue="Cucumber java.Scenario: play with basic functions using page object model" />
+      <item itemvalue="Cucumber java.Scenario: Verify Braer Park functionality2" />
+      <item itemvalue="Cucumber java.Scenario: Verify Braer Park functionality using page object pattern" />
+      <item itemvalue="Cucumber java.Scenario: Verify Braer Park functionality" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber java.Scenario: Verify Braer Park functionality using page object pattern" />
+        <item itemvalue="Cucumber java.Scenario: Verify Braer Park functionality" />
+        <item itemvalue="Cucumber java.Scenario: Verify Braer Park functionality2" />
+        <item itemvalue="Cucumber java.Scenario: play with basic functions using page object model" />
+        <item itemvalue="Cucumber java.Scenario: I'm looking for food using page object pattern" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="56a8f23b-3e07-4352-a29e-2402774df763" name="Default" comment="" />
+      <created>1525139419317</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1525139419317</updated>
+    </task>
+    <task id="LOCAL-00001" summary="new branch 101: My changes">
+      <created>1533855033050</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1533855033051</updated>
+    </task>
+    <task id="LOCAL-00002" summary="new branch 101: My changes">
+      <created>1533858222071</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1533858222071</updated>
+    </task>
+    <task id="LOCAL-00003" summary="new branch 101: My changes">
+      <created>1533867681662</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1533867681662</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Scenario__Verify_Braer_Park_functionality - 2018.08.12 at 14h 00m 08s.xml">
+      <configuration name="Scenario: Verify Braer Park functionality" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Verify_Braer_Park_functionality_using_page_object_pattern - 2018.08.12 at 14h 02m 10s.xml">
+      <configuration name="Scenario: Verify Braer Park functionality using page object pattern" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Verify_Braer_Park_functionality_using_page_object_pattern - 2018.08.12 at 14h 04m 42s.xml">
+      <configuration name="Scenario: Verify Braer Park functionality using page object pattern" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Verify_Braer_Park_functionality_using_page_object_pattern - 2018.08.12 at 14h 05m 26s.xml">
+      <configuration name="Scenario: Verify Braer Park functionality using page object pattern" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Verify_Braer_Park_functionality_using_page_object_pattern - 2018.08.12 at 14h 05m 27s.xml">
+      <configuration name="Scenario: Verify Braer Park functionality using page object pattern" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Verify_Braer_Park_functionality_using_page_object_pattern - 2018.08.12 at 14h 09m 25s.xml">
+      <configuration name="Scenario: Verify Braer Park functionality using page object pattern" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Verify_Braer_Park_functionality_using_page_object_pattern - 2018.08.12 at 14h 15m 02s.xml">
+      <configuration name="Scenario: Verify Braer Park functionality using page object pattern" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Verify_Braer_Park_functionality_using_page_object_pattern - 2018.08.12 at 14h 15m 59s.xml">
+      <configuration name="Scenario: Verify Braer Park functionality using page object pattern" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Verify_Braer_Park_functionality_using_page_object_pattern - 2018.08.13 at 19h 15m 21s.xml">
+      <configuration name="Scenario: Verify Braer Park functionality using page object pattern" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Verify_Braer_Park_functionality_using_page_object_pattern - 2018.08.13 at 19h 16m 54s.xml">
+      <configuration name="Scenario: Verify Braer Park functionality using page object pattern" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="126" y="23" width="1306" height="804" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25158226" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3280116" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38171262" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5413643" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32656023" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3280116" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32900432" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3222061" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.3294753" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22453703" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32896653" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4614265" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5429403" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32756132" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32844576" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32900432" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3231441" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32969603" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new branch 101: My changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="new branch 101: My changes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.AssertionError" package="java.lang" />
+          <option name="timeStamp" value="33" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.openqa.selenium.TimeoutException" package="org.openqa.selenium" />
+          <option name="timeStamp" value="34" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.openqa.selenium.NoSuchElementException" package="org.openqa.selenium" />
+          <option name="timeStamp" value="70" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.openqa.selenium.StaleElementReferenceException" package="org.openqa.selenium" />
+          <option name="timeStamp" value="76" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/definitions/uspaDef.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/definitions/samplePage.java</url>
+          <line>186</line>
+          <properties />
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CucumberJavaRunConfigurationType">
+        <watch expression="getDriver().getWindowHandles()" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>getDriver().getWindowHandles()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>//*[contains(text(),'&quot;+signIn+&quot;')]/..//*[@type='submit']</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>//span[@class='separator line1'][contains(text(),'&quot;+tab+&quot;')]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>//*[contains(text(),'Saturday Delivery')]/../../..//*[@class='ups-lever_switch_bg']</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>//*[contains(text(),'No')][2]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>//div[@class='ups-footer_colsCont ups-container']</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>/div[@class='ups-footer_colsCont ups-container']</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>//fieldset//p//strong</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>&quot;//label[contains(text(),'&quot;+fieldName+&quot;')]/..//select//option[@label='&quot;+value+&quot;']&quot;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>&quot;//label[contains(text(),'\&quot;+fieldName+\&quot;')]/..//select//option[@label='\&quot;+value+\&quot;']\&quot;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/2.3.1/cucumber-core-2.3.1.jar!/cucumber/runtime/StepDefinitionMatch.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-java/2.3.1/cucumber-java-2.3.1.jar!/cucumber/runtime/java/JavaStepDefinition.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="497" selection-start-line="497" selection-end-line="497" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/2.3.1/cucumber-core-2.3.1.jar!/cucumber/runtime/Utils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/ByAddressForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.11.0/selenium-support-3.11.0-sources.jar!/org/openqa/selenium/support/ui/Select.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="208" selection-start-line="208" selection-end-line="208" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/PostagePriceCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/PostalStoreTab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/usps.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/downloads/data.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/sample.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2445">
+          <caret line="163" column="33" selection-start-line="163" selection-start-column="33" selection-end-line="163" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/definitions/samplePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2745">
+          <caret line="183" column="35" lean-forward="true" selection-start-line="183" selection-start-column="35" selection-end-line="183" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/SampleForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="64" column="73" selection-start-line="64" selection-start-column="73" selection-end-line="64" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/amazon.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/java.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/definitions/MyUpsProject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/ups.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="187" column="74" lean-forward="true" selection-start-line="187" selection-start-column="74" selection-end-line="187" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/DatePicker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="36" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/definitions/usps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1017">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/support/Hooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.11.0/selenium-remote-driver-3.11.0-sources.jar!/org/openqa/selenium/remote/ErrorHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2100">
+          <caret line="176" column="26" selection-start-line="176" selection-start-column="26" selection-end-line="176" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/ChipotleMexicanGrillYelp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="38" selection-start-line="13" selection-start-column="3" selection-end-line="14" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/Yelp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/yelp.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/Cat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/ChipotleFinalPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/PortnovMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-103">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/definitions/Portnov.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="133" column="58" lean-forward="true" selection-start-line="133" selection-start-column="58" selection-end-line="133" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MyPractice.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/portnov.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/FullTimePortnovPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/definitions/MyYelp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/LookupByZip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/LookUpaZIPCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/ByAddressResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/MyPracticeClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/SampleVerify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-141">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
+            <element signature="e#1029#1030#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/ScheduleOfClasses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="37" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="9" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/UspsHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/PostalStoreValidate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/PostcardUsps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/ChooseHouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#1736#1737#0" expanded="true" />
+            <element signature="e#1772#1773#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.11.0/selenium-support-3.11.0-sources.jar!/org/openqa/selenium/support/ui/WebDriverWait.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/BraerPark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/ConsultationWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/Kvartira.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/FloorNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/definitions/braerPark/java.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/BraerPark.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8 (1)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>javaWebdriverCucumber</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8 (1)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.beust:jcommander:1.48</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

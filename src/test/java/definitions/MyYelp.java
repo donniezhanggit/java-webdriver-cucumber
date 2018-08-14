@@ -1,10 +1,16 @@
 package definitions;
 
 import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import pages.ChipotleFinalPage;
+import pages.ChipotleMexicanGrillYelp;
+import pages.Yelp;
+
+import java.util.Iterator;
 
 import static support.TestContext.getDriver;
 import static org.assertj.core.api.Assertions.assertThat;
@@ -56,5 +62,49 @@ Thread.sleep(5000);
         assertThat(actualName).contains(expectedName);
 
 
+    }
+
+    @Given("^I open the page \"([^\"]*)\" p$")
+    public void iOpenThePageP(String cite) throws Throwable {
+        Yelp yelp = new Yelp();
+        yelp.open();
+    }
+
+    @When("^I enter my location \"([^\"]*)\" p$")
+    public void iEnterMyLocationP(String zipCode) throws Throwable {
+        Yelp yelp = new Yelp();
+        yelp.sendKeysToZipCodeField(zipCode);
+    }
+
+    @When("^I click search button p$")
+    public void iClickSearchButtonP() throws Throwable {
+    new Yelp().iClickOnSearchClickButton();
+    }
+
+    @When("^I chose my favorite filters p$")
+    public void iChoseMyFavoriteFiltersP() throws Throwable {
+        ChipotleMexicanGrillYelp chipotle = new ChipotleMexicanGrillYelp();
+        chipotle.openAllFiltersButton();
+        chipotle.clicOnOpenNowButton();
+        chipotle.iClickOnTheChepiestPrice();
+    }
+
+    @When("^I chose first restaurant on the page p$")
+    public void iChoseFirstRestaurantOnThePageP() throws Throwable {
+        ChipotleMexicanGrillYelp chipotle = new ChipotleMexicanGrillYelp();
+        chipotle.IselectFirstItemOnThePage();
+    }
+
+    @Then("^I verify that header \"([^\"]*)\" is present p$")
+    public void iVerifyThatHeaderIsPresentP(String headerTextChipotle) throws Throwable {
+        ChipotleFinalPage finalPage = new ChipotleFinalPage();
+
+        Iterator<String> iterator = getDriver().getWindowHandles().iterator();
+        while (iterator.hasNext()) {
+            getDriver().switchTo().window(iterator.next());
+        }
+
+        String actualHeaderTextChipotle = finalPage.returnHeaderText();
+        assertThat(actualHeaderTextChipotle).containsIgnoringCase(headerTextChipotle);
     }
 }

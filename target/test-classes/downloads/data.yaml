@@ -1,0 +1,11 @@
+username: andrei
+email: andreytravkin5@gmail.com
+password: password1
+confirmPassword: password1
+firstName: Andrei
+lastName: Travkin
+phone: "3477943437"
+countryOfOrigin: Russia
+savedPasswordPlaceholder: "[entered]"
+gender: male
+United Kingdom: "10150"

@@ -1,0 +1,568 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2480328945,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.scenarioStart()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Verify another UPS shipping functionality 2",
+        "description": "",
+        "id": "usp-scenarios;verify-another-ups-shipping-functionality-2",
+        "after": [
+          {
+            "result": {
+              "duration": 189716761,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.scenarioEnd(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2938341812,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I open the page \"ups\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ups",
+                  "offset": 17
+                }
+              ],
+              "location": "WebDriverStepDefs.iOpenThePage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 220420032,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I open \"Shipping\" menu item",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Shipping",
+                  "offset": 8
+                }
+              ],
+              "location": "MyUpsProject.iOpenMenuItem(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3715797029,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I open \"Create a Shipment:\" submenu item",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Create a Shipment:",
+                  "offset": 8
+                }
+              ],
+              "location": "MyUpsProject.iOpenSubmenuItem(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 867495554,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I fill out \"Country or Territory\" dropdown with \"United States\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Country or Territory",
+                  "offset": 12
+                },
+                {
+                  "val": "United States",
+                  "offset": 49
+                }
+              ],
+              "location": "MyUpsProject.iFillOutDropdownWith(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1339929801,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I submit calculation form",
+            "match": {
+              "location": "MyUpsProject.iSubmitCalculationForm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 153400313,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I verify \"Company or Name\" field has error \"This field is required\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Company or Name",
+                  "offset": 10
+                },
+                {
+                  "val": "This field is required",
+                  "offset": 44
+                }
+              ],
+              "location": "MyUpsProject.iVerifyFieldHasError(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 57692089,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I verify \"Address\" field has error \"This field is required\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Address",
+                  "offset": 10
+                },
+                {
+                  "val": "This field is required",
+                  "offset": 36
+                }
+              ],
+              "location": "MyUpsProject.iVerifyFieldHasError(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 64243855,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I verify \"State\" field has error \"This field is required\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "State",
+                  "offset": 10
+                },
+                {
+                  "val": "This field is required",
+                  "offset": 34
+                }
+              ],
+              "location": "MyUpsProject.iVerifyFieldHasError(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 63312799,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I verify \"Telephone\" field has error \"This field is required\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Telephone",
+                  "offset": 10
+                },
+                {
+                  "val": "This field is required",
+                  "offset": 38
+                }
+              ],
+              "location": "MyUpsProject.iVerifyFieldHasError(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 50625949,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I verify \"E-mail\" field has error \"This field is required\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "E-mail",
+                  "offset": 10
+                },
+                {
+                  "val": "This field is required",
+                  "offset": 35
+                }
+              ],
+              "location": "MyUpsProject.iVerifyFieldHasError(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 87722122,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I verify \"ZIP Code\" field has error \"This field is required\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ZIP Code",
+                  "offset": 10
+                },
+                {
+                  "val": "This field is required",
+                  "offset": 37
+                }
+              ],
+              "location": "MyUpsProject.iVerifyFieldHasError(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 111815830,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I verify \"City\" field has error \"This field is required\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "City",
+                  "offset": 10
+                },
+                {
+                  "val": "This field is required",
+                  "offset": 33
+                }
+              ],
+              "location": "MyUpsProject.iVerifyFieldHasError(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 43,
+            "name": "I fill out \"E-mail\" field with \"aaa\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "I verify \"E-mail\" field has error \"Field format invalid\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "E-mail",
+                  "offset": 10
+                },
+                {
+                  "val": "Field format invalid",
+                  "offset": 35
+                }
+              ],
+              "location": "MyUpsProject.iVerifyFieldHasError(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 45,
+            "name": "I clear \"E-mail\" field",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 46,
+            "name": "I fill out \"Telephone\" field with \"aaa\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "I verify \"Telephone\" field has error \"Field format invalid\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Telephone",
+                  "offset": 10
+                },
+                {
+                  "val": "Field format invalid",
+                  "offset": 38
+                }
+              ],
+              "location": "MyUpsProject.iVerifyFieldHasError(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 48,
+            "name": "I clear \"Telephone\" field",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 49,
+            "name": "I fill out \"Telephone\" field with \"123\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "I verify \"Telephone\" field has error \"Field min length not met\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Telephone",
+                  "offset": 10
+                },
+                {
+                  "val": "Field min length not met",
+                  "offset": 38
+                }
+              ],
+              "location": "MyUpsProject.iVerifyFieldHasError(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 51,
+            "name": "I clear \"Telephone\" field",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 53,
+            "name": "I fill out \"Company or Name\" field with \"Los Altos Software Testing House\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 54,
+            "name": "I fill out \"Contact\" field with \"Slava Skryabin\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 55,
+            "name": "I fill out \"Address\" field with \"4970 El Camino Real\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 56,
+            "name": "I fill out \"ZIP Code\" field with \"94022\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 57,
+            "name": "I fill out \"City\" field with \"Los Altos\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 58,
+            "name": "I fill out \"State\" dropdown with \"California\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "State",
+                  "offset": 12
+                },
+                {
+                  "val": "California",
+                  "offset": 34
+                }
+              ],
+              "location": "MyUpsProject.iFillOutDropdownWith(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 59,
+            "name": "I fill out \"E-mail\" field with \"slava@skryabin.com\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 60,
+            "name": "I fill out \"Telephone\" field with \"1234567890\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 62,
+            "name": "I submit shipment form",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 63,
+            "name": "I verify that ship from section contains \"Los Altos Software Testing House\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 64,
+            "name": "I verify that ship from section contains \"Slava Skryabin\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 65,
+            "name": "I verify that ship from section contains \"4970 El Camino Real\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 66,
+            "name": "I verify that ship from section contains \"Los Altos, CA 94022\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 68,
+            "name": "I cancel shipment",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 69,
+            "name": "I verify shipment is cancelled",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ups"
+          },
+          {
+            "name": "@ups2"
+          }
+        ]
+      }
+    ],
+    "name": "USP scenarios",
+    "description": "",
+    "id": "usp-scenarios",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/ups.feature",
+    "tags": [
+      {
+        "name": "@ups",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

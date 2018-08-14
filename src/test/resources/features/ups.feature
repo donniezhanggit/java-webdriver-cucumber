@@ -23,7 +23,7 @@ Feature: USP scenarios
     Then I verify results contain "113.81  USD" text
 
 
-  @ups2
+  @UPS2
   Scenario: Verify another UPS shipping functionality 2
     Given I open the page "ups"
     When I open "Shipping" menu item

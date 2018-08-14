@@ -104,5 +104,11 @@ public class usps {
     assertThat(text).containsIgnoringCase(" did not match any products");
 
     }
+
+    @When("^I chose food \"([^\"]*)\" in a food field p$")
+    public void iChoseFoodInAFoodFieldP(String foodName) throws Throwable {
+    Yelp yelp = new Yelp();
+    yelp.sendKeysToSearchField(foodName);
+    }
 }
 

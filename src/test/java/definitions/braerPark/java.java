@@ -1,6 +1,7 @@
 package definitions.braerPark;
 
 import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
@@ -8,6 +9,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import pages.*;
 
 import java.io.File;
 import java.text.NumberFormat;
@@ -81,5 +83,72 @@ public class java {
         new WebDriverWait(getDriver(), 10).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h2[@class='fancybox-title'][contains(text(),'"+tab+"')]")));
         String newTab = getDriver().findElement(By.xpath("//h2[@class='fancybox-title'][contains(text(),'"+tab+"')]")).getText();
         assertThat(newTab).containsIgnoringCase(tab);
+    }
+
+    @Given("^if else conditions$")
+    public void ifElseConditions() throws Throwable {
+        MyPracticeClass practice = new MyPracticeClass();
+        practice.checkEligibility();
+    }
+
+    @Given("^I open the page \"([^\"]*)\" page object$")
+    public void iOpenThePagePageObject(String arg0) throws Throwable {
+        BraerPark braer = new BraerPark();
+        braer.open();
+    }
+
+    @When("^I go to \"([^\"]*)\" section p$")
+    public void iGoToSectionP(String tab) throws Throwable {
+     BraerPark braer = new BraerPark();
+     braer.iGoToPlanirovki(tab);
+    }
+
+    @Then("^I verify that \"([^\"]*)\" is present p$")
+    public void iVerifyThatIsPresentP(String header) throws Throwable {
+        ChooseHouse choose = new ChooseHouse();
+        String actualHeader = choose.verifyHeader();
+        assertThat(actualHeader).containsIgnoringCase(header);
+
+    }
+
+    @When("^I schose house (\\d+) p$")
+    public void iSchoseHouseP(int houseNumber) throws Throwable {
+         new ChooseHouse().iGoToHouseNumber8();
+
+    }
+
+    @When("^I go to the third floor p$")
+    public void iGoToTheThirdFloorP() throws Throwable {
+     new FloorNumber().iGoTothirdFloor();
+
+    }
+
+    @When("^I go to the \"([^\"]*)\" apartment p$")
+    public void iGoToTheApartmentP(String arg0) throws Throwable {
+//       FloorNumber floor = new FloorNumber();
+//       floor.iGoToApartment();
+
+        getDriver().findElement(By.xpath("//area[@title='Квартира №18']")).click();
+    }
+
+    @Then("^I verify apartment price \"([^\"]*)\" p$")
+    public void iVerifyApartmentPriceP(String price) throws Throwable {
+    Kvartira kvartira = new Kvartira();
+    String actualPrice = kvartira.returnapartmenttex();
+    assertThat(actualPrice).containsIgnoringCase(price);
+
+    }
+
+    @When("^I go to \"([^\"]*)\" section tab p$")
+    public void iGoToSectionTabP(String arg0) throws Throwable {
+        Kvartira kvartira = new Kvartira();
+        kvartira.goToSalesOffice();
+    }
+
+    @Then("^I verify that it contains \"([^\"]*)\" p$")
+    public void iVerifyThatItContainsP(String text) throws Throwable {
+    ConsultationWindow window = new ConsultationWindow();
+    String actualText = window.returnFreeConsultationText();
+    assertThat(actualText).containsIgnoringCase(text);
     }
 }
